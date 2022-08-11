@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {DefaultLayout} from '../components/index'
-import GlobalStyled from "../styles/globalStyle";
+import App from '../App'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <GlobalStyled />
-    <DefaultLayout />
+      <App />
   </React.StrictMode>
 )
