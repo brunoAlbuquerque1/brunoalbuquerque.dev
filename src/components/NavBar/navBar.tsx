@@ -6,7 +6,7 @@ export const NavBar = () => {
     return(
       <S.Container>
 
-        <S.Home>
+        {/* <S.Home>
           <S.WrapperMenu to="/" >
             <S.TextMenu  >Inicio </S.TextMenu> 
           </S.WrapperMenu>
@@ -16,7 +16,7 @@ export const NavBar = () => {
           <S.WrapperMenu to="/about">
               <S.TextMenu  >Quem Sou Eu </S.TextMenu>  
           </S.WrapperMenu>
-        </S.About>
+        </S.About> */}
 
         <S.Project>
           <S.WrapperMenu to="/projects">
