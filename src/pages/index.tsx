@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 //  import Projects from '../components/Projects/projects';
 //  import Conhecimento from '../components/Conhecimento';
 
+ import 'aos/dist/aos.css';
 
 
 export default function Home() {
