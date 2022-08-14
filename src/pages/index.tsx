@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
-import 'aos/dist/aos.css';
-// import NavBar from '../components/NavBar/navbar';
-// import About from  '../components/About/about';
+import NavBar from '../components/NavBar/navbar';
+import About from  '../components/About/about';
 
 // import Sidebar from '../components/Sidebar';
 //  import Tecnology from '../components/Tecnology/Tecnology';
@@ -20,9 +19,9 @@ export default function Home() {
   return (
 <>
      
-      {/* <NavBar />  */}
+      <NavBar /> 
       <main className="container">
-       {/* <About/> */}
+       <About/>
     
   
       </main>
