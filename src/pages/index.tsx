@@ -22,8 +22,7 @@ export default function Home() {
   return (
 <>
      
-
-  <NavBar /> 
+      <NavBar /> 
       <main className="container">
        <About/>
     
