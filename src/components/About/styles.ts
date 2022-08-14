@@ -3,18 +3,16 @@ import styled from 'styled-components';
 export const Container = styled.section`
 width: 100%;
 display: flex;
-height: 100vh;
+height: 80vh;
 gap: 2rem;
 flex-direction: row;
 align-items: center;
 justify-content: center;
 
-
 @media(max-width: 1450px) {
     > img {
         width: 30rem;
     }
-
     > div {
         flex: 1
     }
@@ -76,7 +74,6 @@ h4 {
     h1 {
         font-size: 3rem;
     }
-
     h2 {
         font-size: 1.5rem;
     }
@@ -88,10 +85,9 @@ export const ImageWrapper = styled.section`
     height: 400px;
     width: 400px;
 
-
     @media(max-width: 1000px) {
-        height: 250px;
-    width: 250px;
+        height: 350px;
+        width: 350px;
 
 }
 `;

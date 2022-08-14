@@ -31,5 +31,17 @@ export const Line = styled.div`
 `
 
 export const ContainerText = styled.div`
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
+      h2 {
+      color: ${({ theme }) => theme.secondary};
+      font-weight: 300;
+      font-size: 2.5rem;
+    }
+    
+    h3 {
+      color: ${({ theme }) => theme.secondary};
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
 `

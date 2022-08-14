@@ -1,31 +1,51 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    height: 100vh;
-  h1 {
-    color: #fff;
-    font-size: 3.5rem;
-    margin: 50px  0;
-  }
+// export const Container = styled.div`
+//     height: 100vh;
 
-  h2 {
-    color: ${({ theme }) => theme.secondary};
-    font-weight: 300;
-    font-size: 2.5rem;
-  }
-  h3 {
-    color: ${({ theme }) => theme.secondary};
-    font-weight: 300;
-    font-size: 1.5rem;
-  }
+// `;
+export const Container = styled.section`
+    width: 100%;
+    > section {
+        width: 100%;
+        margin-top: 7rem;
+        display: flex;
+        gap: 1.5rem;
 
-  
- 
+        padding-bottom: 8rem;
+        border-bottom: 3px solid ${({ theme }) => theme.primary};
+
+        @media(max-width: 1000px) {
+            gap: 1rem;
+        }
+
+        @media(max-width: 700px) {
+            flex-direction: column;
+            margin-top: 5rem;
+            gap: 2rem;
+        }
+    }
+    h1 {
+     color: #fff;
+     font-size: 3.5rem;
+   }
+
+   h2 {
+     color: ${({ theme }) => theme.secondary};
+     font-weight: 300;
+     font-size: 2.5rem;
+   }
+   h3 {
+     color: ${({ theme }) => theme.secondary};
+     font-weight: 300;
+     font-size: 1.5rem;
+   }
 `;
+
 
 export const WrapperCard = styled.div`
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(5, 200px);
     justify-content: space-between;
    
    
@@ -60,9 +80,9 @@ export const CardContainer = styled.div`
 `
 
 export const Card = styled.div`
-    height: 200px;
+    height: 150px;
+    width: 150px;
     margin-bottom: 20px;
-    width: 200px;
     border-width: 1;
     border-radius: 100px;
     border-color: #fff;
