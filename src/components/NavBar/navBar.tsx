@@ -1,47 +1,50 @@
-import  * as S from './styles'
-import { Link } from "react-router-dom";
+import React from 'react';
+import avatar from '../../assets/foto.jpg';
+import { Container, TextContainer } from './styles';
+import Image from 'next/image'
 
-export const NavBar = () => {
-  
-    return(
-      <S.Container>
+export interface ILogo {
+  //   image: HTMLImageElement;
 
-        <S.Home>
-          <S.WrapperMenu to="/" >
-            <S.TextMenu  >Inicio </S.TextMenu> 
-          </S.WrapperMenu>
-        </S.Home>
-
-        <S.About>
-          <S.WrapperMenu to="/about">
-              <S.TextMenu  >Quem Sou Eu </S.TextMenu>  
-          </S.WrapperMenu>
-        </S.About>
-
-        <S.Project>
-          <S.WrapperMenu to="/projects">
-              <S.TextMenu  >Projetos </S.TextMenu>  
-          </S.WrapperMenu>
-        </S.Project>
-        
-        <S.Worked>
-          <S.WrapperMenu to="/trajectory">
-              <S.TextMenu >Por onde eu passei</S.TextMenu>
-            </S.WrapperMenu>
-        </S.Worked>
-
-       <S.Tecnologi>
-          <S.WrapperMenu to="/tecnologi">
-             <S.TextMenu >Tecnologias</S.TextMenu>  
-          </S.WrapperMenu>
-        </S.Tecnologi>
-
-        <S.Contact>
-         <S.WrapperMenu to="/contact">
-              <S.TextMenu >Contato</S.TextMenu>
-          </S.WrapperMenu>
-        </S.Contact>
-
-      </S.Container>
-    )
 }
+
+function NavBar() {
+  return (
+    <Container>
+      <div>
+        <TextContainer>
+          <h2>Bruno Albuquerque Carneiro </h2>
+        </TextContainer>
+      </div>
+{/* <div style={{flex:1}}></div>
+      <div style={{flex:1, justifyContent:'space-evenly',display:'flex'}}>
+
+      <div>
+       <h3>Inicio</h3>
+      </div>
+      <div>
+         <h3>Tecnologias</h3>
+      </div>
+      <div>
+         <h3>Projetos</h3>
+      </div>
+      <div>
+         <h3>Tragetoria</h3>
+      </div>
+      <div>
+         <h3>Contato</h3>
+      </div>
+      </div> */}
+      {/* <div style={{margin:40}}>
+        <TextContainer>
+          <h2>Bruno Albuquerque</h2>
+        </TextContainer>
+      
+      </div> */}
+    
+      
+    </Container>
+  );
+}
+
+export default NavBar;
