@@ -18,6 +18,7 @@ export const Container = styled.div`
     font-weight: 300;
     font-size: 1.5rem;
   }
+
   
  
 `;
@@ -36,8 +37,10 @@ export const WrapperCard = styled.div`
     grid-template-columns: repeat(2, 350px);
 
 }
-@media(max-width: 300px) {
-    grid-template-columns: repeat(2, 650px);
+@media(max-width: 500px) {
+    grid-template-columns: repeat(1, 150px);
+    align-items: center;
+    justify-content: center;
 
 }
 `

@@ -17,7 +17,7 @@ function Tecnology() {
         <CardTecnology fade={'fade-up'}  nameTecnology="Testing E2E"  />
         <CardTecnology fade={'fade-left'}  nameTecnology="Storybook"  />
     </WrapperCard>  
- 
+
 
     </Container>
     
