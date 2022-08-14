@@ -25,9 +25,8 @@ export default function Home() {
       <NavBar /> 
       <main className="container">
        <About/>
-       <Tecnology />
+       {/* <Tecnology /> */}
     
-       <p>assssss</p>
   
       </main>
   </>

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     height: 100vh;
- 
   h1 {
     color: #fff;
     font-size: 3.5rem;
@@ -28,6 +27,19 @@ export const WrapperCard = styled.div`
     grid-template-columns: repeat(4, 200px);
     justify-content: space-between;
    
+   
+@media(max-width: 1000px) {
+    grid-template-columns: repeat(3, 350px);
+
+}
+@media(max-width: 650px) {
+    grid-template-columns: repeat(2, 350px);
+
+}
+@media(max-width: 300px) {
+    grid-template-columns: repeat(2, 650px);
+
+}
 `
 
 export const CardContainer = styled.div`
