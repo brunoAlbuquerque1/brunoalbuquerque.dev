@@ -8,11 +8,8 @@ function Tecnology() {
 
     <Container>
         <TitleSection title="Minha trajetória" />
-    
-    <Item/>
-    <Item/>
-    <Item/>
-    <Item/>
+      
+      <Item data='123' nameCompany='123'  office='123' description='123'/>
 
     </Container>
     
