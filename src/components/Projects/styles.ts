@@ -11,15 +11,17 @@ export const Container = styled.section`
         border-bottom: 3px solid ${({ theme }) => theme.primary};
         grid-template-columns: repeat(4, 1fr);
 
-        @media(max-width: 1000px) {
+        @media(max-width: 1400px) {
             gap: 1rem;
+            grid-template-columns: repeat(3, 1fr);
+
         }
 
         @media(max-width: 700px) {
             flex-direction: column;
             margin-top: 5rem;
             gap: 2rem;
-        grid-template-columns: repeat(1, 1fr);
+          grid-template-columns: repeat(1, 1fr);
 
         }
     }
