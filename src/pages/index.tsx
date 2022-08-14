@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Aos from 'aos';
-import NavBar from '../components/NavBar/navbar';
+import NavBar from '@/components/NavBar';
 // import About from  '../components/About/about';
 
 // // import Sidebar from '../components/Sidebar';
