@@ -49,7 +49,6 @@ export default class MyDocument extends Document {
             sizes="180x180"
             href="/apple-touch-icon.png"
           />
-          <title>Bruno Albuquerque Carneiro</title>
           <link rel="icon" sizes="32x32" href="/favicon-32x32.png" />
           <link rel="manifest" href="/site.webmanifest" />
           <link
